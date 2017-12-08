@@ -1,0 +1,12 @@
+version: '2'
+services:
+    ts3:
+        build: .
+        command: /opt/ts3/ts3server
+        ports:
+          - "9987:9987/udp"
+          - "30033:30033"
+          - "10011:10011"
+        volumes:
+            - /mnt/teamspeak:/data:z
+restart: always
