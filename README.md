@@ -17,7 +17,7 @@ Running this will build/run your docker image
 ```
 git clone https://github.com/knkcni/teamspeak3-docker.git
 cd teamspeak3-docker
-docker-compose up
+docker-compose up -d
 ```
 
 
@@ -66,3 +66,4 @@ Boot up the server exposing just the main voice port (9987/udp). ServerQuery and
 ```
 docker run -d -p=9987:9987/udp -p=10011:10011 -p=30033:30033 knkcni/teamspeak3
 ```
+
