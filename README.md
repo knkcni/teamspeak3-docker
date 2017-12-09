@@ -1,6 +1,7 @@
 # docker-teamspeak
 
-A nice and easy way to get a TeamSpeak server up and running using docker. 
+A nice and easy way to get a TeamSpeak server up and running using docker.
+
 For help on getting started with docker see the [official getting started guide](https://docs.docker.com/get-started/).
 For more information on TeamSpeak and check out it's [website](https://teamspeak.com/de).
 
