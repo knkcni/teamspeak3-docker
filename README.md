@@ -9,7 +9,7 @@ For more information on TeamSpeak and check out it's [website](https://teamspeak
 
 
 
-## QUICKSTART
+### QUICKSTART
 
 Running this will build/run your docker image 
 
